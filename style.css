@@ -45,3 +45,7 @@ div{
 .sepia{
     filter:sepia(100%) ;
 }
+
+div:hover{
+    filter: none;
+}
