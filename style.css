@@ -13,3 +13,35 @@ div{
     border-color: black;
     border-style:solid;
 }
+
+.blur 
+{
+    filter:blur(5px) ;
+}
+.brightness{
+    filter:brightness(200%) ;
+}
+.constrast{
+    filter:contrast(200%) ;
+}
+.shadow{
+    filter:drop-shadow(20px,gray) ;
+}
+.gray{
+    filter:grayscale(100%) ;
+}
+.hue{
+    filter:hue-rotate(180deg) ;
+}
+.invert{
+    filter:invert(100%) ;
+}
+.opacity{
+    filter:opacity(50%) ;
+}
+.saturate{
+    filter:saturate(50%) ;
+}
+.sepia{
+    filter:sepia(100%) ;
+}
