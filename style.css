@@ -1,5 +1,8 @@
 body{
     background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 h1{
 color:white;
@@ -7,11 +10,13 @@ background-color:black;
 text-align: center;
 }
 div{
-    display: flex;
+
     background-color: linear-gradient(gold, white);
     margin: 25px;
     border-color: black;
     border-style:solid;
+    width:max-content;
+
 }
 
 .blur 
